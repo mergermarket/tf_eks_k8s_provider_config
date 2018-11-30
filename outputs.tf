@@ -1,4 +1,4 @@
-output "endpoint" {
+output "host" {
   value = "${data.aws_eks_cluster.eks_cluster.endpoint}"
 }
 
